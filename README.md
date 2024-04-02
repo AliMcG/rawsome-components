@@ -2,6 +2,9 @@
 
 A component library for React projetcs that use TailwindCSS.
 
+### NPM Package
+https://www.npmjs.com/package/rawsome-components?activeTab=readme
+
 ### Storybook
 
 Check out the components in action on [Rawsome Components Storybook](https://rawsome-components.vercel.app/?path=/docs/configure-your-project--docs)
