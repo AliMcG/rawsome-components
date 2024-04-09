@@ -1,6 +1,6 @@
 import React from "react";
 import { cva, type VariantProps } from "class-variance-authority";
-import { cn } from "../utils/ct";
+import { cn } from "../utils/cn";
 
 /** The extends type "HTMLButtonElement" allows us to use any attributes that a <button> tag can have
  *  without having to explicitly define the arttibutes
