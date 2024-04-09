@@ -1,4 +1,6 @@
 import type { Preview } from "@storybook/react";
+import '../src/tailwind.css'; 
+import { themes } from '@storybook/theming';
 
 const preview: Preview = {
   parameters: {
@@ -8,6 +10,18 @@ const preview: Preview = {
         date: /Date$/i,
       },
     },
+    docs: {
+      theme: themes.dark
+    },
+    options: {
+      storySort: {
+        method: "alphabetical",
+        oder: [
+          "Introduction"
+        ],
+      }
+    },
+
   },
 };
 
