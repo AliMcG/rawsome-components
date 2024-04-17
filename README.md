@@ -27,3 +27,9 @@ The base stylying for rawsome-components makes use of the following tailwind cla
 - secondary-foreground
 - secondary-hover
 
+## Possible bug with tailwind.config.ts
+
+For some reason tailiwndCSS is not being applied to the components imported in from `node_modules`
+Adding the line:
+`'./node_modules/rawsome-components/dist/**/*.{js,ts,jsx,tsx}'`
+to the conent array in the `tailwind.config.ts` seems to work.
