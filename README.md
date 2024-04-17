@@ -22,8 +22,8 @@ This means that tailwind classes can be overwritten for each component as requir
 The base stylying for rawsome-components makes use of the following tailwind classes:
 - primary
 - primary-foreground
-- primary:hover
+- primary-hover
 - secondary
 - secondary-foreground
-- secondary:hover
+- secondary-hover
 
