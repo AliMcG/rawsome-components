@@ -16,12 +16,12 @@ export interface ButtonProps
  * We can add or modfiy the "size". For example to have "small", "normal", "large" and "extra large"
  */
 const buttonStyles = cva(
-  "flex w-3/6 items-center justify-center rounded-lg font-semibold no-underline transition shadow-2xl shadow-slate-800",
+  "flex w-full items-center justify-center rounded-lg font-semibold no-underline transition shadow-2xl shadow-slate-800",
   {
     variants: {
       intent: {
         primary: "bg-primary text-primary-foreground hover:bg-primary-hover",
-        secondary: "bg-secondary text-secondary-foreground hover:bg-secondary hover",
+        secondary: "bg-secondary text-secondary-foreground hover:bg-secondary-hover",
        danger: "bg-danger text-danger-text hover:danger-hover"
       },
       size: {
