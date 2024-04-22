@@ -11,11 +11,13 @@ export default {
         primary: {
           DEFAULT: "#1e40af",
           hover: "#3b82f6",
+          active: "#3b82f6",
           foreground: "white"
         },
         secondary: {
           DEFAULT: "#e2e8f0",
           hover: "#64748b",
+          active: "#64748b",
           foreground: "black"
         },
       }
