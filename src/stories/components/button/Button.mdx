@@ -1,0 +1,46 @@
+import { Meta, Controls } from "@storybook/blocks";
+
+import * as ButtonStories from "./Button.stories";
+
+<Meta of={ButtonStories} />
+
+# Definition
+
+Button is a clickable interactive element that triggers a response.
+
+You can place text and icons inside of a button.
+
+Buttons are often used for form submissions and to toggle elements into view.
+
+## Usage
+
+The component comes in different variants which you can use to alter the look and feel of the button.
+
+Intent - which defines the colour theme:
+- `primary`
+- `secondary`
+- `danger`
+
+Size:
+-  `small`
+- `normal`
+- `large`
+
+
+
+## Inputs
+
+Button has the following properties:
+
+<Controls />
+
+Edit the Control values to change the Button story in the Sandbox.
+
+## Default Variants
+
+You can use the Button component without passing any variants and it will return the dafaults:
+
+```tsx
+intent: "primary",
+size: "normal",
+```
