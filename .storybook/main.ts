@@ -9,7 +9,6 @@ const config: StorybookConfig = {
     "@storybook/addon-essentials",
     "@chromatic-com/storybook",
     "@storybook/addon-interactions",
-    "@storybook/addon-mdx-gfm",
     {
       name: "@storybook/addon-styling-webpack",
       options: {
@@ -41,9 +40,6 @@ const config: StorybookConfig = {
   framework: {
     name: "@storybook/react-webpack5",
     options: {},
-  },
-  docs: {
-    autodocs: "tag",
   },
 };
 export default config;
